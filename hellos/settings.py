@@ -133,7 +133,7 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     #Allow all host headers
-    ALLOWED_HOSTS = ['hellodevdennis.herokuapp.com']
+    ALLOWED_HOSTS = ['helloshiv.herokuapp.com']
     DEBUG = True
 
     #Static asset configuration
